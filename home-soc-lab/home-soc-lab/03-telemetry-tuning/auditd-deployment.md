@@ -157,8 +157,11 @@ Confirmed `active (running)`.
 
 ### 9. Verify in the Wazuh dashboard
 
-📸 **See `screenshots/wazuh-ubuntu-421-events.png`** — the Threat Hunting
+📸 **See — the Threat Hunting
 view filtered to `agent.id: 002` (ubuntu-victim):
+
+<img width="1918" height="941" alt="Screenshot 2026-04-11 142029" src="https://github.com/user-attachments/assets/7c592604-7bbb-47a1-a810-cadfef4f2a33" />
+
 
 | Metric | Value |
 |---|---|
@@ -176,9 +179,12 @@ side in breadth.
 
 ---
 
+
+[wazuh-module-agents-002-general-1775897392.pdf](https://github.com/user-attachments/files/26644832/wazuh-module-agents-002-general-1775897392.pdf)
 ## What Wazuh detected (Ubuntu Phase 3 closeout report)
 
-📄 **Source:** [`../reports/phase3-complete-ubuntu-auditd-active.pdf`](../reports/phase3-complete-ubuntu-auditd-active.pdf)
+
+
 
 ### Top alerts
 
