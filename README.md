@@ -179,7 +179,12 @@ Place screenshot files in this folder:
 - phase2-wazuh-dashboard-agents-active.png (after agent)
 <img width="1919" height="944" alt="Screenshot 2026-04-11 025624" src="https://github.com/user-attachments/assets/567e823e-ba25-4546-ad86-0d7dd6d914f2" />
 
+<img width="1919" height="954" alt="Screenshot 2026-04-11 133520" src="https://github.com/user-attachments/assets/ef5d8380-b3a2-4a2b-b266-8d2fc1859b2c" />
+
 - phase2-mitre-donut-chart.png
+
+  <img width="1919" height="954" alt="Screenshot 2026-04-11 133446" src="https://github.com/user-attachments/assets/2a13fad9-2a1e-4675-9b29-1704be8e1e0f" />
+
 - phase2-authentication-failures-detected.png
 
 
