@@ -202,7 +202,8 @@ SOC analyst roles. MSc Cybersecurity (Teesside University), CompTIA Security+
 This project is updated regularly as I progress through the phases. Follow
 along — every phase produces new artifacts.
 
-**Connect:** [LinkedIn] · [GitHub]
+**Connect:** Email: - vineethsannithi1998@gmail.com
+
 
 ---
 
