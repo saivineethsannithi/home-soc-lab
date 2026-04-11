@@ -96,6 +96,17 @@ techniques and detecting them with a live SIEM.
 - [x] MITRE ATT&CK mapping verified (Valid Accounts T1078, Disable/Modify Tools T1562)
 - [x] CIS Benchmark baseline scan completed (Windows 11 at 26% compliance — remediation backlog)
 
+### Phase 3 — Telemetry Tuning ✅ COMPLETE
+- [x] Ubuntu Wazuh agent deployed
+- [x] Sysmon installed on Windows with SwiftOnSecurity config
+- [x] Wazuh ingesting Sysmon events (928+ events captured)
+- [x] Level 12+ Sysmon detections firing — T1036.005, T1546.011
+- [x] Investigation writeup for high-severity alerts published
+- [x] auditd Neo23x0 ruleset deployed on Ubuntu (354 rules loaded)
+- [x] Wazuh ingesting auditd events (16 rule groups firing)
+- [x] Both Windows + Linux telemetry verified end-to-end
+- [x] CIS Benchmark compliance scanning active on both endpoints
+
 ---
 
 ## 📊 Early Results
