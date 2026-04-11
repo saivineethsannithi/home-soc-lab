@@ -195,7 +195,7 @@ Place screenshot files in this folder:
 
 ## 📫 About
 
-Built by **Saivineeth Sannithi (Bunny)** — cybersecurity professional pursuing
+Built by **Saivineeth Sannithi ** — cybersecurity professional pursuing
 SOC analyst roles. MSc Cybersecurity (Teesside University), CompTIA Security+
 (SY0-701), Google Cybersecurity Professional certified.
 
