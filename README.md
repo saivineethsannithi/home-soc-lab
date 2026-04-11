@@ -68,28 +68,6 @@ techniques and detecting them with a live SIEM.
 - [x] MITRE ATT&CK mapping verified (Valid Accounts T1078, Disable/Modify Tools T1562)
 - [x] CIS Benchmark baseline scan completed (Windows 11 at 26% compliance — remediation backlog)
 
-### Phase 3 — Telemetry Tuning (Next)
-- [ ] Ubuntu Wazuh agent deployment
-- [ ] Sysmon + SwiftOnSecurity config on Windows
-- [ ] auditd rules (Neo23x0 ruleset) on Ubuntu
-- [ ] Verify enriched telemetry flowing into Wazuh
-
-### Phase 4 — Attack Simulations (Planned)
-- [ ] Nmap recon from Kali (T1046)
-- [ ] SSH brute force against Ubuntu (T1110)
-- [ ] Local admin account creation (T1136)
-- [ ] Registry Run key persistence (T1547)
-- [ ] Scheduled task persistence (T1053)
-- [ ] Encoded PowerShell execution (T1059.001)
-- [ ] Windows Defender tampering (T1562)
-- [ ] SUID binary creation on Linux (T1548)
-
-### Phase 5 — Custom Detection Engineering (Planned)
-- [ ] Write 3+ Sigma rules for gaps in Wazuh's default ruleset
-- [ ] Convert Sigma → Wazuh XML rule format
-- [ ] Tune for false positives
-- [ ] Document each detection with writeup + screenshots
-
 ---
 
 ## 📊 Early Results
@@ -173,20 +151,17 @@ home-soc-lab/
 # Screenshots
 Dashboard captures, alert screenshots, architecture diagrams.
 Place screenshot files in this folder:
-- phase2-wazuh-dashboard-empty.png (before agent)
+<b>- phase2-wazuh-dashboard-empty.png (before agent)</b>
  <img width="1919" height="942" alt="Screenshot 2026-04-11 024743" src="https://github.com/user-attachments/assets/ece33478-05df-415a-9e66-8e655b8c4cd4" />
 
-- phase2-wazuh-dashboard-agents-active.png (after agent)
+<b>- phase2-wazuh-dashboard-agents-active.png (after agent)</b>
 <img width="1919" height="944" alt="Screenshot 2026-04-11 025624" src="https://github.com/user-attachments/assets/567e823e-ba25-4546-ad86-0d7dd6d914f2" />
 
+<b>- phase2-mitre-donut-chart.png</b>
 <img width="1919" height="954" alt="Screenshot 2026-04-11 133520" src="https://github.com/user-attachments/assets/ef5d8380-b3a2-4a2b-b266-8d2fc1859b2c" />
 
-- phase2-mitre-donut-chart.png
-
+<b>- phase2-authentication-failures-detected.png</b>
   <img width="1919" height="954" alt="Screenshot 2026-04-11 133446" src="https://github.com/user-attachments/assets/2a13fad9-2a1e-4675-9b29-1704be8e1e0f" />
-
-- phase2-authentication-failures-detected.png
-
 
 ## 📫 About
 
