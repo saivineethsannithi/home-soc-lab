@@ -38,6 +38,8 @@ techniques and detecting them with a live SIEM.
                              └────────────────┘
 ```
 **SOCLab NAT Network**
+
+---
                     10.0.10.0/24
                           │
          ┌────────────────┼────────────────┐
@@ -61,7 +63,7 @@ techniques and detecting them with a live SIEM.
                     │   (host)   │
                     └────────────┘
 
-
+---
 
 
 **Stack:**
