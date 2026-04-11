@@ -37,6 +37,32 @@ techniques and detecting them with a live SIEM.
                              │  Team — next)  │
                              └────────────────┘
 ```
+**SOCLab NAT Network**
+                    10.0.10.0/24
+                          │
+         ┌────────────────┼────────────────┐
+         │                │                │
+    ┌────▼─────┐    ┌─────▼─────┐    ┌────▼─────┐
+    │ Ubuntu   │    │ Windows   │    │  Kali    │
+    │ 10.0.10.4│    │ 10.0.10.5 │    │10.0.10.6 │
+    │ (victim) │    │ (victim)  │    │(attacker)│
+    └──────────┘    └───────────┘    └──────────┘
+                          │
+                    ┌─────▼──────┐
+                    │   Wazuh    │
+                    │ 10.0.10.7  │
+                    │   (SIEM)   │
+                    └────────────┘
+                          ▲
+                          │ port forward
+                          │ 127.0.0.1:8443 → 443
+                    ┌─────┴──────┐
+                    │ Your laptop│
+                    │   (host)   │
+                    └────────────┘
+
+
+
 
 **Stack:**
 - **Hypervisor:** Oracle VirtualBox 7.x
@@ -151,6 +177,8 @@ home-soc-lab/
 # Screenshots
 Dashboard captures, alert screenshots, architecture diagrams.
 Place screenshot files in this folder:
+
+
 <b>- phase2-wazuh-dashboard-empty.png (before agent)</b>
  <img width="1919" height="942" alt="Screenshot 2026-04-11 024743" src="https://github.com/user-attachments/assets/ece33478-05df-415a-9e66-8e655b8c4cd4" />
 
