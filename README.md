@@ -204,6 +204,33 @@ Place screenshot files in this folder:
 <b>- phase2-authentication-failures-detected.png</b>
   <img width="1919" height="954" alt="Screenshot 2026-04-11 133446" src="https://github.com/user-attachments/assets/2a13fad9-2a1e-4675-9b29-1704be8e1e0f" />
 
+<b> phase3- 📸 **See — the Threat Hunting</b>
+view filtered to `agent.id: 002` (ubuntu-victim):
+
+<img width="1918" height="941" alt="Screenshot 2026-04-11 142029" src="https://github.com/user-attachments/assets/7c592604-7bbb-47a1-a810-cadfef4f2a33" />
+
+
+| Metric | Value |
+|---|---|
+| Total events | **421** |
+| Level 12+ alerts | 0 (clean baseline, nothing malicious) |
+| Authentication failures | 6 |
+| Authentication successes | 22 |
+
+Top 10 alert groups firing on the Ubuntu side:
+`sca`, `syslog`, `pam`, `authentication_success`, `sudo`, `dpkg`,
+`apparmor`, `config_changed`, `local`, `authentication_failed`.
+
+This is multi-source telemetry — the Linux side now matches the Windows
+side in breadth.
+
+---
+
+
+[wazuh-module-agents-002-general-1775897392.pdf](https://github.com/user-attachments/files/26644832/wazuh-module-agents-002-general-1775897392.pdf)
+## What Wazuh detected (Ubuntu Phase 3 closeout report)
+
+
 ## 📫 About
 
 Built by **Saivineeth Sannithi ** — cybersecurity professional pursuing
